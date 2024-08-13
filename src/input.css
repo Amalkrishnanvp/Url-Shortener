@@ -6,3 +6,10 @@
   font-family: "Noto serif";
   font-size: 1rem;
 }
+.pop-up-msg {
+  background-color: green !important;
+  transition: opacity 2s ease-in-out;
+}
+.fade {
+  opacity: 0;
+}
