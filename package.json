@@ -1,0 +1,20 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/stylesheets/style.css --watch",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "hbs": "^4.2.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.9"
+  }
+}
